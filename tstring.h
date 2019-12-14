@@ -9,6 +9,7 @@ class TString{
         TString( const char* s = nullptr );
         TString( const TString& s );
         TString& operator= ( const TString& s );
+        TString( TString&& s);
         ~TString();
 
     private:
