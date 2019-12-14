@@ -6,6 +6,9 @@
 class TString{
 
     public:
+        TString( const char* s = nullptr );
+        TString( const TString& s );
+        ~TString();
 
     private:
         char* ptr= nullptr;
